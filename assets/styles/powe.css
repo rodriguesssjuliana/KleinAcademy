@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+main{
+    margin-top: 10vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    color: #fff;
+}
+
+.powers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.powers h1{
+    font-family: 'Syne Mono', cursive;
+    text-shadow: 5px 5px  10px rgb(56, 0, 0);
+    text-align: center;
+    margin: 1rem;
+    color: #fff;
+}
+
+.powers span{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    border: solid 1px rgb(7, 7, 7);
+    padding: 2rem;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2{
+    font-family: 'Syne Mono', cursive;
+    text-shadow: 5px 5px 10px black;
+    margin-top: 25px;
+}
+
+.container div{
+    margin: 1rem 0;
+    border-top: solid 1px rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+.container div h3{
+    font-family: 'Syne Mono', cursive;
+    font-size: 20pt;
+    margin: 1rem 0;
+}
+
+.container div p{
+    font-size: 14pt;
+}
+
+.container div img{
+    width: 100%;
+    margin: 1rem 0rem;
+}
+
+.container div .red{
+    color: #e60000;
+    text-align: left;
+    margin: 1rem 0rem;
+}
+
+.container div .green{
+    color: #28f000;
+    text-align: right;
+    margin: 1rem 0rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    border: solid 1px white;
+    padding: 2rem;
+    width: 25vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.list h2{
+    text-align: center;
+    font-size: 20pt;
+    margin: 1rem 0;
+    font-family: 'Syne Mono', cursive;
+    text-shadow: 5px 5px 5px black;
+}
+
+.lista{
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.418);
+    padding: 1rem;
+    box-shadow: 5px 5px 10px 5px black;
+}
+
+.lista li{
+    margin: .5rem 1rem;
+}
+
+.title-topic{
+    font-size: 18pt;
+    color: #fff;
+}
+
+@media (max-width:900px){
+    .list{
+        width: 75vw;
+    }
+
+    .container{
+        width: 75vw;
+    }
+}
+.organizacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mapa img{
+    width: 50%;
+    margin: 2rem 1rem;
+}
+@media (max-width: 800px){
+    .title-page{
+        font-size: 24pt;
+    }
+    .mapa-principal img{
+        width: 75%;
+    }
+    .location{
+        width: calc(80vw + 4rem);
+    }
+    .mapa-conteudo{
+        width: 75vw;
+    }
+}
